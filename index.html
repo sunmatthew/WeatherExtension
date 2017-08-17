@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>weather??????</title>
+		<script src="jquery-3.2.1.min.js"></script>
+
+	</head>
+	<body>
+		<h1>whats the weather ??&#191;?&#191;</h1>
+		<label for="location">where ??</label>
+		<input type="text" name="location" id="location"></input>
+		<br />
+
+		<button id="getWeather">show me that weather</button>
+
+		<table id="weatherFindings" style="display:none;">
+			<tbody>
+				<tr>
+					<td>weather</td>
+					<td id="weather" style="text-align: right;"></td>
+				</tr>
+				<tr>
+					<td>temperature (celsius)</td>
+					<td id="temp" style="text-align: right;"></td>
+				</tr>
+				<tr>
+					<td>cloud coverage</td>
+					<td id="clouds" style="text-align: right;"></td>
+				</tr>
+				<tr>
+					<td>humidity</td>
+					<td id="humid" style="text-align: right;"></td>
+				</tr>
+				<tr>
+					<td>rain chance</td>
+					<td id="rain" style="text-align: right;"></td>
+				</tr>
+				<tr>
+					<td>wind speed</td>
+					<td id="wind" style="text-align: right;"></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+			<script src="darkskyapi.js"></script>
+</html>
